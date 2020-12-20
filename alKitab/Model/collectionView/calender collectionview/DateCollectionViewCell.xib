@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17126"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="DateCollectionViewCell" customModule="alKitab" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Bj7-3r-8rd">
+                        <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Faz-wo-hOf">
+                                <rect key="frame" x="25" y="25" width="0.0" height="0.0"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Faz-wo-hOf" firstAttribute="centerX" secondItem="Bj7-3r-8rd" secondAttribute="centerX" id="v4j-sd-ScQ"/>
+                            <constraint firstItem="Faz-wo-hOf" firstAttribute="centerY" secondItem="Bj7-3r-8rd" secondAttribute="centerY" id="xs3-2c-4Lx"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="Bj7-3r-8rd" secondAttribute="bottom" id="0f6-Rh-t90"/>
+                <constraint firstItem="Bj7-3r-8rd" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="8if-qy-kol"/>
+                <constraint firstItem="Bj7-3r-8rd" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="M8O-d0-Lyr"/>
+                <constraint firstAttribute="trailing" secondItem="Bj7-3r-8rd" secondAttribute="trailing" id="TSd-Ph-a3x"/>
+            </constraints>
+            <connections>
+                <outlet property="dateLabel" destination="Faz-wo-hOf" id="J8H-wp-uKN"/>
+            </connections>
+            <point key="canvasLocation" x="140.57971014492756" y="91.741071428571431"/>
+        </collectionViewCell>
+    </objects>
+</document>

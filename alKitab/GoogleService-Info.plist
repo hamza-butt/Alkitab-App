@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>505010681267-iptd4o72qmra26tsvfc9uf7nim9fme92.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.505010681267-iptd4o72qmra26tsvfc9uf7nim9fme92</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDxJ5vRn1V9EjMB9YxR7TsyeGmtm1jr3_4</string>
+	<key>GCM_SENDER_ID</key>
+	<string>505010681267</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.AWH.alKitab</string>
+	<key>PROJECT_ID</key>
+	<string>alkitab-a287f</string>
+	<key>STORAGE_BUCKET</key>
+	<string>alkitab-a287f.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:505010681267:ios:f8001687fa4f4b61c487c6</string>
+	<key>DATABASE_URL</key>
+	<string>https://alkitab-a287f.firebaseio.com</string>
+</dict>
+</plist>
